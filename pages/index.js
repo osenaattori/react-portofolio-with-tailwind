@@ -1,15 +1,9 @@
 import Head from "next/head";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
+
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import consulting from "../public/consulting.png";
+import elder from "../public/vanhus.jpg";
 import Image from "next/image";
 
 export default function Home() {
@@ -68,38 +62,23 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white ">
-              Palvelut ja Hinnasto
-            </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Tarjoamme laajaa teknistä tukea seniori-ikäisille. Olipa kyseessä
-              tietokoneen käytön opastus, älypuhelimen ongelmanratkaisu tai
-              uusien ohjelmistojen oppiminen, autamme sinua mielellämme.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              <span className="text-teal-500"> Hinnasto </span>
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Tervetuloa Oskarin IT-tuen nettisivuille! Oskarin IT-tuki tarjoaa
-              teknistä tukea ja opastusta seniori-ikäisille. Tarjoamme myös apua
-              ohjelmistojen käytössä, teknisissä ongelmissa ja järjestämme
-              koulutuksia.
-            </p>
+          <section className="min-h-screen">
+            <div className="text-center p-10 py-10">
+              <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+                Oskarin-IT paikan päällä tapahtuva tuki: Hinta: 25€/tunti
+              </h2>
+              <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
+                Palvelun kuvaus: Oskarin-IT tarjoaa asiantuntevaa IT-apua ja
+                opastusta senioreille heidän tarpeidensa mukaan. Avustus voi
+                kattaa esimerkiksi tietokoneiden, älypuhelinten, ohjelmistojen,
+                internet-yhteyksien ja muiden laitteiden käytön ja
+                ongelmanratkaisun.
+              </h3>
+              <p className="text-md py-5 leading-8 text-teal-800 dark:text-teal-200 max-w-xl mx-auto md:text-xl">
+                Palvelun sisältö:
+              </p>
 
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Oskarin-IT paikan päällä tapahtuva tuki:
-              <br />
-              Hinta: 25€/tunti
-              <br />
-              Palvelun kuvaus: Oskarin-IT tarjoaa asiantuntevaa IT-apua ja
-              opastusta senioreille heidän tarpeidensa mukaan. Avustus voi
-              kattaa esimerkiksi tietokoneiden, älypuhelinten, ohjelmistojen,
-              internet-yhteyksien ja muiden laitteiden käytön ja
-              ongelmanratkaisun.
-              <br />
-              Palvelun sisältö:
-              <ul>
+              <ul className="text-3xl py-2 text-teal-600 dark:text-teal-400 md:text-1">
                 <li>IT-laitteiden käytön opastus</li>
                 <li>Ohjelmistojen asennus ja päivitykset</li>
                 <li>Tietoturva- ja virusongelmien ratkaisu</li>
@@ -108,12 +87,14 @@ export default function Home() {
                 <li>Ongelmanratkaisu ja kysymysten selvittäminen</li>
                 <li>Yleinen IT-neuvonta ja tuki</li>
               </ul>
-              Matkakulut: Matkakustannukset voivat sisältyä tuntihintaan, mutta
-              voivat myös olla erillisenä maksuna riippuen etäisyydestä tai
-              alueesta. Tarkemmat yksityiskohdat kannattaa sopia suoraan
-              Oskarin-IT:n kanssa.
-            </p>
-          </div>
+
+              <ul className="text-3xl py-2 text-grey-600 dark:text-red-400 md:text-1">
+                <li>Ota yhteyttä, mieluiten Whatsapin kautta :) </li>
+                <li> +358443609007 </li>
+              </ul>
+            </div>
+          </section>
+
           <div className="lg:flex gap-10"></div>
         </section>
       </main>
