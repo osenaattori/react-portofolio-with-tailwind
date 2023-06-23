@@ -79,26 +79,39 @@ export default function Home() {
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               <span className="text-teal-500"> Hinnasto </span>
-              <div class="container">
-                <b>Tekninen tuki (50 €/tunti):</b>
-                <p></p>
-                <p> Tietokoneen käyttöopastus</p>
-                <p> Älypuhelimen ja tabletin asetusten säätö</p>
-                <p> Ohjelmistojen asennus ja päivitykset</p>
-                <p> Wi-Fi-verkon ongelmanratkaisu</p>
-                <p></p>
-                <b>Laiteongelmien korjaus (50 €/tunti):</b>
-                <p></p>
-                <p> Tietokoneen, älypuhelimen tai tabletin vianmääritys</p>
-                <p> Laitteiden nopeuden ja suorituskyvyn parantaminen</p>
-                <p> Virustorjunnan asennus ja tietoturvan tarkistus</p>
-              </div>
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Tervetuloa Oskarin IT-tuen nettisivuille! Oskarin IT-tuki tarjoaa
               teknistä tukea ja opastusta seniori-ikäisille. Tarjoamme myös apua
               ohjelmistojen käytössä, teknisissä ongelmissa ja järjestämme
               koulutuksia.
+            </p>
+
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+              Oskarin-IT paikan päällä tapahtuva tuki:
+              <br />
+              Hinta: 25€/tunti
+              <br />
+              Palvelun kuvaus: Oskarin-IT tarjoaa asiantuntevaa IT-apua ja
+              opastusta senioreille heidän tarpeidensa mukaan. Avustus voi
+              kattaa esimerkiksi tietokoneiden, älypuhelinten, ohjelmistojen,
+              internet-yhteyksien ja muiden laitteiden käytön ja
+              ongelmanratkaisun.
+              <br />
+              Palvelun sisältö:
+              <ul>
+                <li>IT-laitteiden käytön opastus</li>
+                <li>Ohjelmistojen asennus ja päivitykset</li>
+                <li>Tietoturva- ja virusongelmien ratkaisu</li>
+                <li>Internet-yhteyksien asetukset ja vianmääritys</li>
+                <li>Sähköpostin ja sosiaalisen median käytön opastus</li>
+                <li>Ongelmanratkaisu ja kysymysten selvittäminen</li>
+                <li>Yleinen IT-neuvonta ja tuki</li>
+              </ul>
+              Matkakulut: Matkakustannukset voivat sisältyä tuntihintaan, mutta
+              voivat myös olla erillisenä maksuna riippuen etäisyydestä tai
+              alueesta. Tarkemmat yksityiskohdat kannattaa sopia suoraan
+              Oskarin-IT:n kanssa.
             </p>
           </div>
           <div className="lg:flex gap-10"></div>
